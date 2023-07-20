@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(130deg, rgb(95, 244, 140), rgb(34, 156, 244));
+  padding: 10px;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 550px;
+  background: white;
+  border-radius: 20px;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+}
+
+.todo-app h2 {
+  display: flex;
+  color: black;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.todo-app h2 img {
+  width: 40px;
+  margin-left: 10px;
+}
